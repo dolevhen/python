@@ -2,9 +2,8 @@
 
 friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 new_friend = ['Stanley']
-print(friends.sort() + new_friend) 
 
-# solution: 
+# solution:
 
-# friends.extend(new_friend)
-# print(sorted(friends))
+friends.extend(new_friend)
+print(sorted(friends))
